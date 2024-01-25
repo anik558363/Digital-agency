@@ -5,7 +5,36 @@
 }
 
 
+.primary{
+    color: red;
+}
 
+
+.btn{
+    padding: 12px 20px;
+    border: none;  
+    font-style: italic;
+  }
+
+
+.title{
+    font-size: 55px;
+    font-weight: bold;
+    color: white;
+}
+
+.description{
+    color: white;
+    padding: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+.primary-bg{
+    background-color: red;
+    color: white;
+    margin: 10px;
+}
 
 /* nav related style */
 
@@ -37,4 +66,36 @@ nav li{
 .menus{
     display: flex;
     gap: 20px;
+    font-size: 17px;
+    font-style: italic;
 }
+
+.menus > li:hover{
+    color: blue;
+    background-color: bisque;
+}
+
+/* banner related style */
+
+
+.banner-container{
+    height: 100vh;
+    width: 100%;
+    background-image: url('../asset/image/background.jpg'),linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.4));
+    background-blend-mode: overlay;
+    display: flex;
+    background-size: cover;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+
+
+.title{
+    margin: auto;
+}
+
+    
